@@ -1,0 +1,121 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    /* background-image: url("../images/background.jpg"); */
+    /* background-position: center   ; */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+header {
+    
+    background-color: rgb(0, 0, 0);
+    height: 5em;
+    
+}
+#logo {
+    margin-left:10% ;
+    margin-top:10px ;
+    /* margin-bottom: em; */
+
+}
+.navigation {
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+   
+}
+.navigation a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 5px;
+}
+
+.navigation a:hover{
+    background-color: teal;
+    color: black;
+} 
+.side {
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 100px;
+    width: 50%;
+    float: left ;
+}
+.side h3 {
+    margin-bottom: 1em;
+    
+}
+.side li {
+    padding: 2px;
+    list-style-type: square;
+    
+}
+.my_login {
+    background-color: beige;
+    width: 15%;
+    height: 15em;
+    float: right;
+    border: 2px solid red;
+    padding: 1.2em;
+    margin-right: 4em;
+    margin-top: 2em;
+}
+.my_login h2 {
+    margin: 10px;
+    text-align: center;
+}
+.my_login button{
+    background-color: blue;
+    border: none;
+    width: 100%;
+    height: 1.7em;
+    color: white;
+}
+.my_login input{
+    width: 100%;
+}
+
+/* * Courses */ 
+.container {
+    margin-top: 450px;
+    margin-left: 60px;
+   
+    
+
+}
+
+.pbox {
+    border: 3px solid white;
+    float: left;
+    width: 22%;
+    margin-left: 5px;
+    padding: 5px;
+    background-color: gainsboro;
+    height: 13em;
+    text-align: justify;
+}
+.pbox h4 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.pbox a {
+    color: red;
+    text-decoration: none;
+}
+
+
+footer
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 1.5em;
+    margin-top: 50em;
+    
+}
